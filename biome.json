@@ -1,0 +1,54 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": true,
+    "attributePosition": "multiline",
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80
+  },
+  "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
+    "formatter": {
+      "arrowParentheses": "always",
+      "bracketSameLine": true,
+      "bracketSpacing": true,
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "attributePosition": "multiline"
+    },
+    "globals": ["Astro"]
+  },
+  "json": {
+    "parser": { "allowComments": true },
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineWidth": 80,
+      "trailingCommas": "all"
+    }
+  }
+}

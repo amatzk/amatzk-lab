@@ -1,0 +1,46 @@
+{
+  "name": "amatzk-lab",
+  "type": "module",
+  "scripts": {
+    "build": "vinxi build",
+    "dev": "vinxi dev",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@ark-ui/solid": "^5.25.1",
+    "@internationalized/date": "^3.9.0",
+    "@kobalte/core": "^0.13.11",
+    "@solid-mediakit/og": "^0.4.1",
+    "@solid-primitives/refs": "^1.1.2",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.2.0",
+    "chart.js": "^4.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "katex": "^0.16.22",
+    "solid-js": "^1.9.9",
+    "tailwind-merge": "^3.3.1",
+    "vinxi": "^0.5.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "@iconify-json/fa6-brands": "^1.2.6",
+    "@iconify-json/mdi": "^1.2.3",
+    "@kobalte/tailwindcss": "^0.9.0",
+    "@mdx-js/mdx": "^3.1.1",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/katex": "^0.16.7",
+    "@vinxi/plugin-mdx": "^3.7.2",
+    "solid-mdx": "^0.0.7",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.1.13",
+    "tailwindcss-animate": "^1.0.7",
+    "unplugin-icons": "^22.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
